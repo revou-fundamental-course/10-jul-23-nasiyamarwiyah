@@ -1,0 +1,82 @@
+h1 {
+    background-color: yellow;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: black;
+}
+.h-2 {
+    width:50%;
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    padding-bottom: 5px;
+    
+}
+.p1{
+    width: 35%;
+    margin: auto;
+    text-align: justify;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+body{
+    background-color:pink;
+}
+
+div {
+    width: 30%;
+    margin: auto;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(1, 1,0.1);
+}
+.hitung-BMI{
+    background-color: rgb(143, 229, 255);
+    border-color: rgb(105, 232, 255);
+    border-radius: 5px;
+}
+.fitur{
+    width:50%;
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+ul{
+    width:75%;
+    margin: auto;
+    text-align: start;
+    font-family: fantasy;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+a{
+    font-size: 10px;
+    text-align: center;
+}
+
+form{
+    width: 30%;
+    margin: auto;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(1, 1,0.1);
+}
+.reset{
+    border-radius: 5px;
+}
+.hasil{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(131, 226, 255);
+    border-radius: 10px;
+    
+}

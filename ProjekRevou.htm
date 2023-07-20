@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Projek Revou</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mini Projek Revou</h1>
+    <br>
+    <h2 class="h-2">Kalkulator BMI</h2><br>
+    <p class="h-2">Yuk!, hitung sekarang di kalkulator BMI</p>
+
+            <div class="container">
+                <label for="nama">Jenis Kelamin</label>
+                <br>
+                <input id="laki" type="radio" name="jenis">
+                <label class="jenis-kelamin" for="laki">Laki-laki</label>
+                <input id="perempuan" type="radio" name="jenis">
+                <label class="jenis-kelamin" for="perempuan">Perempuan</label>
+                <br><br>
+                <label for="nama">Usia</label>
+                <br>
+                <input class="Kalkulator" type="number" id="usia" placeholder="Usia" required >
+                <br><br>
+                <label for="nama">Berat</label>
+                <br>
+                <input class="Kalkulator" type="number" id="berat" placeholder="Berat">
+                <br><br>
+                <label for="nama">Tinggi Badan (meter)</label>
+                <br>
+                <input class="Kalkulator" type="number" id="tinggi" placeholder="Tinggi (meter)">
+                <br><br>
+                <button class="hitung-BMI" onclick="calculateBMI()">Hitung BMI</button>
+                <input type="button" onclick="reload" value="Reset" id="reset"></button>
+            </div>
+            <br>
+                <form>
+                     <label for="">Hasil</label>
+                     <div class="hasil">
+                        <br>
+                        <p id="heading"></p>
+                        <p id="bmi-output"></p>
+                        <p id="massage"></p>
+                     </div>
+                     <br>
+                     <p class="fitur">Keunggulan Fitur</p>
+                    <ul>
+                        <li>Menghitung berat badan</li>
+                        <li>Menentukan kategori berat badan ideal atau tidak</li>
+                        <li>Mempersiapkan program penurunan berat badan</li>
+                    </ul>
+                    <a href="https://www.lighthouse-indonesia.com/complete-weightloss-google-2/?gad=1&gclid=CjwKCAjwtuOlBhBREiwA7agf1tym_Nl_BCc5GjQYlutCNA4YgeA_Ngfkh3r81ZKnBGAHvTQa8dbrrBoCficQAvD_BwE">Konsultasi Ahli Gizi</a>
+                <script src="projekrevou.js"></script>
+                     
+                    
+                </form>
+    
+    
+     
+</body>
+</html>
